@@ -916,6 +916,93 @@ input, select, textarea {
 						background: #ea3723;
 					}
 
+
+
+
+            /*comments*/
+.experience-section {
+
+  padding: 50px 20px;
+  font-family: "Cairo", sans-serif;
+  background: #fafafa;
+}
+
+.experience-section h2 {
+   margin-right: -840px;
+   text-decoration: rtl;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 28px;
+}
+
+.experience {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.exp-box {
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 7px 20px rgba(0,0,0,0.065);
+  border: 1px solid #eee;
+  transition: 0.2s;
+}
+
+.exp-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.user-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.user-info h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.user-info .date {
+  font-size: 13px;
+  color: #777;
+}
+
+.content {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Icons */
 
 	.icon {
@@ -1043,7 +1130,7 @@ input, select, textarea {
 
 				#nav > ul > li > a {
 					border-radius: 5px;
-					color: #5d5d5d;
+					color: #000000;
 					text-decoration: none;
 					padding: 0.6em 1.2em 0.6em 1.2em;
 					-moz-transition: background-color .25s ease-in-out;
@@ -1855,4 +1942,10 @@ hr {
 				padding: 40px 0 20px 0;
 			}
 
+	}
+
+	#space {
+
+		height: 100px;
+		width: 100%;
 	}
